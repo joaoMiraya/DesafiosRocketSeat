@@ -47,9 +47,32 @@ margin-right: 50px;
 margin-left: 50px;
 cursor: pointer;
 }
+
 .time-music{
-margin: 20px 0px;
+border:none;
+border-radius: 10px;
+background-color: #FFF;
+height: 6px;
 cursor: pointer;
+display: flex;
+align-items: center;
+justify-content: flex-start;
+overflow: hidden;
+width: 190px; 
+z-index: 2;
+}
+#musicDuration{
+height: 0px;
+width: 200px;
+}
+
+.duracao{
+width: 80%;
+display: flex;
+justify-content: space-between;
+position: relative;
+bottom: 20px;
+z-index: 1;
 }
 .hidden{
 display: none;
@@ -69,6 +92,9 @@ border-radius: 10px;
 display: flex;
 align-items: center;
 flex-direction: column;
+}
+.ctnt-2-time{
+margin: 15px 0px;
 }
 .foto-title{
 height: 84px;

@@ -39,12 +39,20 @@
 <div class="next-music-box">
     <img src="/images/play-forward.png" alt="avançar">
 </div>
-
     </div>
 
-<div class="time-music">
-<img src="/images/Frame 7805.png" alt="tempo-percorrido">
+<div class="time-music" id="timeMusicBox">
+<input type="range" name="range" id="musicDuration" min="0" max="1">
 </div>
+<div class="duracao">
+    <div>
+        <p class="inicio">00:00</p>
+    </div>
+
+    <div>
+        <p class="final">0:00</p>
+    </div>
+</div>  
 
 </div>
 </div>
@@ -78,7 +86,7 @@
 
     </div>
 
-<div class="time-music ctnt-2-time">
+<div class="ctnt-2-time">
 <img class="tempo-musica" src="/images/Frame 7905.png" alt="tempo-percorrido">
 </div>
    </div> 
@@ -116,7 +124,8 @@
 </div>
 
 
+<audio id="audio" src="/audios/this-girl-official-music-video.mp3"></audio>
 
-<script src="/javascripts/playPause.js"></script>
+<script src="/javascripts/audio.js"></script>
 </body>
 </html>
