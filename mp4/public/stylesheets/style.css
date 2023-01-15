@@ -1,0 +1,136 @@
+body {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+.container-main{
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+background-color: #1E1E1E;
+height: 100vh;
+flex-wrap: wrap;
+}
+.ctnt-1{
+background-color: #2A2141;
+height: 498px;
+width: 266px;
+border-radius: 10px;
+margin-top: 30%;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: space-evenly;
+}
+.image-box{
+margin-top: 20px;
+}
+.nome-banda h4, p {
+font-family: 'Roboto', sans-serif;
+color: #E1E1E6;
+text-align: center;
+letter-spacing: 2px;
+}
+.nome-banda h4{
+font-size: 23px;
+}
+.nome-banda p{
+position: relative;
+bottom: 20px;
+}
+.buttons-box{
+display: flex;
+margin-right: 50px;
+
+}
+.buttons-box div{
+margin-left: 50px;
+cursor: pointer;
+}
+
+.time-music{
+border:none;
+border-radius: 10px;
+background-color: #FFF;
+height: 6px;
+cursor: pointer;
+display: flex;
+align-items: center;
+justify-content: flex-start;
+overflow: hidden;
+width: 190px; 
+z-index: 2;
+}
+#musicDuration{
+height: 0px;
+width: 200px;
+}
+
+.duracao{
+width: 80%;
+display: flex;
+justify-content: space-between;
+position: relative;
+bottom: 20px;
+z-index: 1;
+}
+.hidden{
+display: none;
+}
+                                /* content 2 */
+
+.cln2{
+display: flex;
+flex-direction: column;
+}
+
+.ctnt-2{
+width: 357px;
+height: 250px;
+background-color: #2A2141;
+border-radius: 10px;
+display: flex;
+align-items: center;
+flex-direction: column;
+}
+.ctnt-2-time{
+margin: 15px 0px;
+}
+.foto-title{
+height: 84px;
+overflow: hidden;
+display: flex;
+align-items: center;
+margin-top: 25px;
+}
+.foto-title img{
+height: 84px;
+}
+.ctnt-2-title{
+margin-left: 30px;
+}
+.container-btns-ctnt-2{
+position: relative;
+top: 35px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+                                /* content 3 */
+.ctnt-3{
+width: 357px;
+height: 200px;
+background-color: #2A2141;
+border-radius: 10px;
+margin-top: 50px;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: space-between;
+}
+.ctnt-3-btns{
+position: relative;
+bottom: 20px;
+}
